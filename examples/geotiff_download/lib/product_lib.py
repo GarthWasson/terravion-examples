@@ -272,7 +272,7 @@ class ProductLib(object):
         G2 = np.asarray(G2, dtype=np.float)
         R2 = np.asarray(R2, dtype=np.float)
 
-        pan = 0.3 * R2 + 0.59 * G2 + 0.11 * R2
+        pan = 0.3 * B2 + 0.59 * G2 + 0.11 * R2
 
         del R2, G2, B2
 
